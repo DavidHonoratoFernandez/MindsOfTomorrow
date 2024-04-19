@@ -211,11 +211,6 @@
     }
     
     
-    
-    #programas{
-        background-color: rgb(37, 237, 165);
-    }
-    
     #titulo-centro{
         font-size: 125%;
         text-align: center;
@@ -244,12 +239,6 @@
         padding-right: 2.5%;
     }
     
-    #img-seccion3{
-        padding-top: 5%;
-        width: 100%;
-        height: 100%;
-    }
-    
     
     
     #seccion4{
@@ -263,21 +252,6 @@
         height: 50%;
     }
     
-    
-    
-    #seccion5{
-        background-color: rgb(70, 166, 252);
-        display: flex;
-    }
-    
-    
-    
-    #pie{
-        background-color: black;
-        color: white;
-        display: block;
-    }
-    
     #seccion-pie1{
         width: 100%;
     }
@@ -286,18 +260,7 @@
         width: 100%;
         display: flex;
     }
-    
-    #txt-pie{
-        padding: 2%;
-        font-size: 75%;
-    }
-    
-    #txt-pie2{
-        padding: 2%;
-        padding-left: 5%;
-        font-size: 75%;
-    }
-    
+   
     #txt-pie3{
         padding: 2%;
         padding-left: 10%;
