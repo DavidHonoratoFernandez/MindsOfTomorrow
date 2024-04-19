@@ -1,6 +1,9 @@
 #todo{
     padding-left: 30%;
     padding-right: 30%;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 #imgcab{
@@ -47,6 +50,7 @@
 
 #texto{
     font-size: 100%;
+    text-align: justify;
 }
 
 
@@ -58,7 +62,7 @@
 #titulo-centro{
     font-size: 200%;
     text-align: center;
-    padding: 3%;
+    padding: 1%;
 }
 
 #fotos{
@@ -91,16 +95,25 @@
 
 
 
+#seccion4 {
+    display: flex;
+}
+
+#seccion4-1{
+    display: flex;
+}
+
 #img-seccion4{
     padding-top: 5%;
-    width: 24%;
-    height: 24%;
+    width: 50%;
+    display: flex;
 }
 
 
 
 #seccion5{
     background-color: rgb(70, 166, 252);
+    display: flex;
 }
 
 
@@ -111,6 +124,15 @@
     display: flex;
 }
 
+#seccion-pie1{
+    width: 50%;
+}
+
+#seccion-pie2{
+    width: 50%;
+    display: flex;
+}
+
 #txt-pie{
     padding: 2%;
     font-size: 75%;
@@ -118,12 +140,167 @@
 
 #txt-pie2{
     padding: 2%;
-    padding-left: 15%;
+    padding-left: 5%;
     font-size: 75%;
 }
 
 #txt-pie3{
     padding: 2%;
-    padding-left: 15%;
+    padding-left: 30%;
     font-size: 75%;
+}
+
+
+
+@media screen and (max-width: 700px){
+    #imgcab{
+        height: 200%;
+        width: 100%;
+        position: relative;
+    }   
+
+    #txtcab{
+    font-size: 300%;
+    width: 75%;
+    position: absolute;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+
+    }
+    #todo{
+        padding-left: 10%;
+        padding-right: 10%;
+        display: block;
+    }
+    
+    #cuerpo{
+        display: block;
+    }
+    
+    #seccion1{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: block;
+    }
+    
+    #seccion1-2{
+        width: 90%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        display: block;
+    }
+    
+    #img-seccion1{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    #titulo{
+        font-size: 200%;
+        display: block;
+    }
+    
+    #texto{
+        font-size: 100%;
+        display: block;
+    }
+    
+    
+    
+    #programas{
+        background-color: rgb(37, 237, 165);
+    }
+    
+    #titulo-centro{
+        font-size: 125%;
+        text-align: center;
+        padding: 4%;
+    }
+    
+    #fotos{
+        width: 30%;
+        height: 30%;
+        padding-left: 10%;
+        padding-right: 8%;
+        padding-bottom: 4%;
+    }
+    
+    
+    
+    #seccion3{
+        width: 90%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+    
+    #seccion3-2{
+        width: 90%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+    
+    #img-seccion3{
+        padding-top: 5%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
+    #seccion4{
+        display: block;
+        width: 100%;
+    }
+    
+    #img-seccion4{
+        padding-top: 0%;
+        width: 50%;
+        height: 50%;
+    }
+    
+    
+    
+    #seccion5{
+        background-color: rgb(70, 166, 252);
+        display: flex;
+    }
+    
+    
+    
+    #pie{
+        background-color: black;
+        color: white;
+        display: block;
+    }
+    
+    #seccion-pie1{
+        width: 100%;
+    }
+    
+    #seccion-pie2{
+        width: 100%;
+        display: flex;
+    }
+    
+    #txt-pie{
+        padding: 2%;
+        font-size: 75%;
+    }
+    
+    #txt-pie2{
+        padding: 2%;
+        padding-left: 5%;
+        font-size: 75%;
+    }
+    
+    #txt-pie3{
+        padding: 2%;
+        padding-left: 10%;
+        font-size: 75%;
+    }
 }
